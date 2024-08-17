@@ -1,0 +1,12 @@
+spring:
+    data:
+        mongodb:
+              uri:
+                  mongodb+srv://mukulkholiyacs22:iknsfbJEz6wpy1ck@cluster0.unzcjuw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+              database:
+                  journaldb
+              auto:
+                  index:
+                      creation:
+                            true
